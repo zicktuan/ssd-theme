@@ -1,0 +1,100 @@
+.bas-widget-field {
+	clear: both;
+}
+.bas-widget-field .bas-widget-data-args{
+	display: none;
+}
+
+.bas-widget-inline{
+    margin: 0;
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    padding: 2px;
+    cursor: text;
+    min-height: 24px;
+    overflow: hidden;
+}
+.bas-widget-inline li{
+    margin-bottom: 0;
+}
+
+
+.bas-widget-list{
+	display: none;
+	border: 1px solid #5b9dd9;
+    box-shadow: 0 1px 2px rgba(30,140,190,.8);
+    background-color: #fff;
+	list-style: none;
+    padding: 2px;
+    margin: 0;
+    outline: none;
+	max-height: 200px;
+	overflow-y: auto;
+}
+
+.bas-widget-list .bas-widget-item{
+	margin: 0;
+    padding: 0;
+    width: 100%;
+    white-space: nowrap;
+    text-align: left;
+    cursor: pointer;
+}
+
+.bas-widget-list .bas-widget-item a{
+	text-decoration: none;
+    display: block;
+    padding: 2px .4em;
+    line-height: 1.5;
+    min-height: 0;
+    font-weight: normal;
+}
+
+.bas-widget-list .bas-widget-item:hover {
+	background: #ddd;
+}
+
+.bas-widget-search-input{
+	width: 100%;
+    border: 0;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.bas-widget-data{
+    display: block;
+    padding: 1px 20px 4px 5px;
+    width: auto;
+    float: left;
+    background: #0085ba;
+    color: #fff;
+    border: 1px solid #0085ba;
+    position: relative;
+    margin: 1px;
+    cursor: pointer;
+}
+.bas-widget-data .bas-widget-label{
+    border-radius: 2px;
+    padding: 0 0 0 8px;
+    margin: 1px;
+    position: relative;
+    cursor: pointer;
+}
+.bas-widget-data .bas-widget-label a{
+    color: #fff;
+}
+
+.bas-widget-item-remove{
+    color: #aec4d8;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 4px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.bas-widget-item-remove:hover{
+    color: #fff;
+}
