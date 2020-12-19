@@ -47,3 +47,5 @@ function BookAwesomeTheme() {
 $GLOBALS['bookAwesomeTheme'] = BookAwesomeTheme();
 
 include 'inc/AfterSetupTheme.php';
+
+include 'hook/help-hook.php';
